@@ -26,16 +26,16 @@
 	KEY_PASSWORD=******** 
 	                  
 	[channel]
-	##渠道文件 
+	##渠道文件 格式txt文本空格隔开，参考美团打包说明	
 	apkChannelpath=C:\studio\auto360channel\channel\sign\channel.txt 
 	##加固和渠道输出路径  
 	apkOutPutPath=C:\studio\auto360channel\channel\apk\
-	##加固输出文件名（渠道名称前缀:10000pets_v2.1.0_360）
-	apkOutPutName=10000pets_v2.1.0.apk
+	##加固输出文件名（渠道名称前缀:app_v2.1.0_360）
+	apkOutPutName=app_v2.1.0.apk
 
 ##2  V2签名需要修改inputpassward.vbs文件
 
-	Wshell.SendKeys "xtxXTX123!@#"  自动发送输入密码  
+	Wshell.SendKeys "password"  自动发送输入密码  
 	注意：在中文输入法下，会发送一个alt加空格切换 不需要修改此文件
 
 ##3  V1签名需要修改startV1.bat设置手动设置下密码和confg.ini保持一致
