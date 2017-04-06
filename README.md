@@ -40,8 +40,8 @@
 
 ##3  V1签名需要修改startV1.bat设置手动设置下密码和confg.ini保持一致
 
-	   SET STORE_PASSWORD=xtxXTX123!@#
-	   SET KEY_PASSWORD=xtxXTX123!@#
+	   SET STORE_PASSWORD=******
+	   SET KEY_PASSWORD=******
 
 ##4  V1打包双击startV1.bat  V2签名使用startV2
 
