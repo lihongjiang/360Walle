@@ -45,6 +45,8 @@
 
 ##4  V1打包双击startV1.bat  V2签名使用startV2
 
+	也可以和和jenkins配合使用
+
 ##5 参考资料
 
  [美团打包神器](http://tech.meituan.com/android-apk-v2-signature-scheme.html) 
